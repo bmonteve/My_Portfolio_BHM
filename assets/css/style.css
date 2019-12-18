@@ -1,0 +1,93 @@
+/* header { */
+    /* width: 100%; */
+    /* background: black; */
+/* } */
+
+html{
+    background: lightgray;
+    margin: 0%;
+    padding: 0%;
+}
+
+.overlay{
+    background: white;
+    overflow: hidden;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    border-bottom-style:solid;
+    border-bottom-width:2px;
+    border-bottom-color:gray;
+}
+
+.name {
+    background:rgb(2, 172, 143);
+    position: relative;
+    left: 20%;
+    padding-left: 10px;
+    padding-right: 10px;
+    top: 0%;
+    color: white;
+    font-size: 10px;
+    float: left;
+}
+
+.About{
+    color: gray;
+    float: right;
+    position: relative;
+    padding: 17px;
+    right: 20%;
+    font-size: 12px;
+}
+
+.Portfolio{
+    position: relative;
+    color: gray;
+    float: right;
+    right: 20%;
+    padding: 17px;
+    font-size: 12px;
+}
+
+.Contact{
+    position: relative;
+    color: gray;
+    float: right;
+    right: 20%;
+    padding: 17px;
+    font-size: 12px;
+}
+
+.Bio{
+    background: white;
+    width: 59%;
+    height: 425px;
+    position: fixed;
+    left: 20%;
+    top: 10%;
+    padding: 0px 0px 0px 20px;
+    margin: 5px 0px 20px 0px;
+}
+
+.Bottom{
+    background: gray;
+    color: black;
+    height: 30px;
+    border-top-style: solid;
+    border-top-color: blue;
+    border-bottom-width: 2px;
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
+    width: 100%;
+    padding: 0px 0px 20px 0px;
+    text-align: center;
+}
+
+#Me{
+    color: green;
+    font-size: 12px;
+}
+
