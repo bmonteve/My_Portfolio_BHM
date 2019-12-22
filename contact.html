@@ -7,41 +7,45 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
+<body>
+    <div class="container">
+        <nav>
+            <ul>
+                <li>Brian Monteverde</li>
+                <li><a href="https://bmonteve.github.io/My_Portfolio_BHM/contact.html">Contact</a></li>
+                <li><a href="https://bmonteve.github.io/My_Portfolio_BHM/portfolio.html">Portfolio</a></li>
+                <li><a href="https://bmonteve.github.io/My_Portfolio_BHM/index.html">About</a></li>
+            </ul>
+        </nav>
 
-<nav>
-    <ul>
-        <li>Brian Monteverde</li>
-        <li><a href="https://bmonteve.github.io/My_Portfolio_BHM/contact.html">Contact</a></li>
-        <li><a href="https://bmonteve.github.io/My_Portfolio_BHM/portfolio.html">Portfolio</a></li>
-        <li><a href="https://bmonteve.github.io/My_Portfolio_BHM/index.html">About</a></li>
-    </ul>
-</nav>
+        <section class="Bio">
+            <h1>Contact</h1>
 
-<section class="Bio">
-    <h1>Contact</h1>
+            <div class="form-group">
 
-    <div class="form-group">
+                <div class="row">
+                    <label class="required" for="email">Email</label><br />
+                    <input id="email" class="input" name="email" type="text" value="example@gmail.com"
+                        size="115" /><br />
+                </div>
 
-        <div class="row">
-            <label class="required" for="email">Email</label><br />
-            <input id="email" class="input" name="email" type="text" value="example@gmail.com" size="115" /><br />
-        </div>
+                <div class="row">
+                    <label class="required" for="name">Name</label><br />
+                    <input id="name" class="input" name="name" type="text" value="John Smith" color="#000000"
+                        size="115" /><br />
+                </div>
+                <div class="row">
+                    <label for="my-textarea">Message</label><br>
+                    <textarea id="my-textarea" class="form-control" name="" rows="15" cols="113"></textarea>
+                </div>
+                <input id="submit_button" type="submit" value="Submit" />
+                </form>
+        </section>
 
-        <div class="row">
-            <label class="required" for="name">Name</label><br />
-            <input id="name" class="input" name="name" type="text" value="John Smith" color="#000000"
-                size="115" /><br />
-        </div>
-        <div class="row">
-            <label for="my-textarea">Message</label><br>
-            <textarea id="my-textarea" class="form-control" name="" rows="15" cols="113"></textarea>
-        </div>
-        <input id="submit_button" type="submit" value="Submit" />
-        </form>
-</section>
-
-<footer>
-    <p>Copyright</p>
-</footer>
+        <footer>
+            <p>Copyright</p>
+        </footer>
+    </div>
+</body>
 
 </html>
