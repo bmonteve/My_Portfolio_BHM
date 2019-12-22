@@ -3,91 +3,185 @@
     /* background: black; */
 /* } */
 
+.container {
+    position: relative;
+    min-height: 100vh;
+}
+
 html{
     background: lightgray;
     margin: 0%;
     padding: 0%;
 }
 
-.overlay{
-    background: white;
-    overflow: hidden;
-    position: fixed;
-    top: 0%;
-    left: 0%;
-    width: 100%;
-    border-bottom-style:solid;
-    border-bottom-width:2px;
-    border-bottom-color:gray;
-}
-
-.name {
-    background:rgb(2, 172, 143);
-    position: relative;
-    left: 20%;
-    padding-left: 10px;
-    padding-right: 10px;
-    top: 0%;
-    color: white;
-    font-size: 10px;
-    float: left;
-}
-
-.About{
-    color: gray;
-    float: right;
-    position: relative;
-    padding: 17px;
-    right: 20%;
-    font-size: 12px;
-}
-
-.Portfolio{
-    position: relative;
-    color: gray;
-    float: right;
-    right: 20%;
-    padding: 17px;
-    font-size: 12px;
-}
-
-.Contact{
-    position: relative;
-    color: gray;
-    float: right;
-    right: 20%;
-    padding: 17px;
-    font-size: 12px;
+body {
+    padding: 0;
+    margin: 0;
 }
 
 .Bio{
     background: white;
-    width: 59%;
-    height: 425px;
-    position: fixed;
+    width: 56%;
+    height: 475px;
+    position: absolute;
     left: 20%;
     top: 10%;
-    padding: 0px 0px 0px 20px;
-    margin: 5px 0px 20px 0px;
+    padding: 0px 20px 0px 20px;
+    overflow: hidden;
+    color: #777777;
 }
 
-.Bottom{
-    background: gray;
+footer{
+    background: #666666;
     color: black;
     height: 30px;
-    border-top-style: solid;
-    border-top-color: blue;
-    border-bottom-width: 2px;
-    position: fixed;
+    border-top: 8px solid #4aaaa5;
+    position: absolute;
     bottom: 0%;
     left: 0%;
     width: 100%;
-    padding: 0px 0px 20px 0px;
+    margin: 0;
+    padding: 10px;
     text-align: center;
+    line-height: 10px;
 }
 
-#Me{
-    color: green;
-    font-size: 12px;
+h1{
+    color: #4aaaa5;
+    font-size: 20px;
+    padding: 20px 0px 20px 0px;
+    margin: 0px 0px 20px 0px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: gray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+#ProPic{
+    float: left;
+    margin: 0px 10px 10px 0px;
+}
+
+#ProText{
+    float: left;
+    position: relative;
+    margin: 0px 0px 0px 10px;
+    width: 76%;
+}
+
+nav{
+    background: white;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    position: absolute;
+    margin: 0px 0px 0px 0px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #cccccc;
+    overflow: hidden;
+
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li:first-child {
+    display: block;
+    background-color: #4aaaa5;
+    color:white;
+    text-align: center;
+    padding: 13px;
+    text-decoration: none;
+    position: absolute;
+    left: 20%;
+    float: left;
+    font-size: 20px;
+}
+
+li a {
+    display: block;
+    color: gray;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    float: right;
+    position: relative;
+    right: 20%;
+}
+
+.clearfix{
+    overflow: hidden;
+}
+
+figure{
+    margin: 0px 17px 5px 0px;
+    float: left;
+}
+
+p {
+   margin: 0; 
+   font-family: Arial, Helvetica, sans-serif;
+   line-height: 24px;
+
+}
+
+.top {
+    position: relative;
+    width: 30%;
+    float: left;
+}
+
+.bottom {
+    position: relative;
+    width: 30%;
+    float: left;
+}
+
+.top img{
+    margin-right: 40px;
+    margin-bottom: 20px;
+    position: relative;
+    border: 1px black solid;
+}
+
+.bottom img {
+    margin-right: 40px;
+    position: relative;
+    border: 1px black solid;
+}
+
+.box{
+    position: absolute;
+    bottom: 20%;
+    background: #4aaaa5;
+    width: 152px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+.top:hover{
+    opacity: .5;
+}
+
+.row{
+    margin-top: 10px;
+}
+
+#my-textarea{
+    margin-bottom: 10px;
+}
+
+#submit_button{
+    
+    padding: 10px 20px;
+    background-color: #4aaaa5;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
